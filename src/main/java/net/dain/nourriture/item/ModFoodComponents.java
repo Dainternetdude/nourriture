@@ -6,6 +6,6 @@ import net.minecraft.item.FoodComponent;
 
 public class ModFoodComponents {
 
-	public static final FoodComponent BURGER = new FoodComponent.Builder().hunger(8).saturationModifier(1.0f)
+	public static final FoodComponent HAMBURGER = new FoodComponent.Builder().hunger(8).saturationModifier(1.0f)
 			.alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 5 * 20), 1).build();
 }

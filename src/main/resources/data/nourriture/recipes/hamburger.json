@@ -7,13 +7,13 @@
   ],
   "key": {
     "b": {
-      "item": "minecraft:bread"
+      "item": "nourriture:bun"
     },
     "c": {
       "item": "minecraft:cooked_beef"
     }
   },
   "result": {
-    "item": "nourriture:burger"
+    "item": "nourriture:hamburger"
   }
 }

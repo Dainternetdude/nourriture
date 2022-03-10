@@ -1,5 +1,7 @@
 {
-  "item.nourriture.burger": "Burger",
+  "item.nourriture.hamburger": "Hamburger",
+  "item.nourriture.cheese": "Cheese",
+  "item.nourriture.bun": "Bun",
 
   "itemGroup.nourriture.nourriture": "Nourriture"
 }

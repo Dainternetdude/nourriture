@@ -8,8 +8,12 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-	public static final Item BURGER = registerItem("burger",
-			new Item(new FabricItemSettings().group(ModItemGroup.NOURRITURE).food(ModFoodComponents.BURGER)));
+	public static final Item HAMBURGER = registerItem("hamburger",
+			new Item(new FabricItemSettings().group(ModItemGroup.NOURRITURE).food(ModFoodComponents.HAMBURGER)));
+	public static final Item CHEESE = registerItem("cheese",
+			new Item(new FabricItemSettings().group(ModItemGroup.NOURRITURE)));
+	public static final Item BUN = registerItem("bun",
+			new Item(new FabricItemSettings().group(ModItemGroup.NOURRITURE)));
 
 
 	private static Item registerItem(String name, Item item) {
