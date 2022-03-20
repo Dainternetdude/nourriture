@@ -3,5 +3,7 @@
   "item.nourriture.cheese": "Cheese",
   "item.nourriture.bun": "Bun",
 
+  "block.nourriture.cauldron_with_water": "Cauldron with Water",
+
   "itemGroup.nourriture.nourriture": "Nourriture"
 }

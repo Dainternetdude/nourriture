@@ -34,3 +34,6 @@ run/
 
 # GIMP
 *.xcf
+
+# BlockBench
+*.bbmodel

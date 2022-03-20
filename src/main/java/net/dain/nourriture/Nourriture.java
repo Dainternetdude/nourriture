@@ -1,5 +1,6 @@
 package net.dain.nourriture;
 
+import net.dain.nourriture.block.ModBlocks;
 import net.dain.nourriture.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -21,5 +22,6 @@ public class Nourriture implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

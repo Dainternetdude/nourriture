@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nourriture:item/cauldron_with_bucket"
+  }
+}
