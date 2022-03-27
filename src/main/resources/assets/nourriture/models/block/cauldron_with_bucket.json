@@ -4,11 +4,12 @@
 	"textures": {
 		"4": "nourriture:block/bucket_bottom",
 		"5": "nourriture:block/bucket_side",
-		"top": "minecraft:block/cauldron_top",
+		"top": "block/cauldron_top",
 		"bottom": "nourriture:block/milk_still",
-		"particle": "minecraft:block/cauldron_side",
-		"side": "minecraft:block/cauldron_side",
-		"inside": "minecraft:block/cauldron_inner"
+		"particle": "block/cauldron_side",
+		"side": "block/cauldron_side",
+		"inside": "block/cauldron_inner",
+		"wood": "block/oak_planks"
 	},
 	"elements": [
 		{
@@ -149,8 +150,8 @@
 		},
 		{
 			"name": "bottom",
-			"from": [5, 6, 5],
-			"to": [11, 7, 11],
+			"from": [5, 8, 5],
+			"to": [11, 9, 11],
 			"faces": {
 				"north": {"uv": [0, 0, 8, 1], "texture": "#missing"},
 				"east": {"uv": [0, 0, 8, 1], "texture": "#missing"},
@@ -161,8 +162,8 @@
 			}
 		},
 		{
-			"from": [4, 6, 11],
-			"to": [12, 14, 12],
+			"from": [4, 8, 11],
+			"to": [12, 16, 12],
 			"faces": {
 				"north": {"uv": [12, 4, 4, 12], "texture": "#5"},
 				"east": {"uv": [4, 4, 5, 12], "texture": "#5"},
@@ -173,8 +174,8 @@
 			}
 		},
 		{
-			"from": [4, 6, 4],
-			"to": [12, 14, 5],
+			"from": [4, 8, 4],
+			"to": [12, 16, 5],
 			"faces": {
 				"north": {"uv": [4, 4, 12, 12], "texture": "#5"},
 				"east": {"uv": [11, 4, 12, 12], "texture": "#5"},
@@ -185,8 +186,8 @@
 			}
 		},
 		{
-			"from": [11, 6, 5],
-			"to": [12, 14, 11],
+			"from": [11, 8, 5],
+			"to": [12, 16, 11],
 			"faces": {
 				"north": {"uv": [4, 4, 12, 12], "texture": "#5"},
 				"east": {"uv": [5, 4, 11, 12], "texture": "#5"},
@@ -197,8 +198,8 @@
 			}
 		},
 		{
-			"from": [4, 6, 5],
-			"to": [5, 14, 11],
+			"from": [4, 8, 5],
+			"to": [5, 16, 11],
 			"faces": {
 				"north": {"uv": [4, 4, 12, 12], "texture": "#5"},
 				"east": {"uv": [11, 4, 5, 12], "texture": "#5"},
@@ -210,8 +211,8 @@
 		},
 		{
 			"name": "milk",
-			"from": [5, 12, 5],
-			"to": [11, 13, 11],
+			"from": [5, 14, 5],
+			"to": [11, 15, 11],
 			"faces": {
 				"north": {"uv": [0, 0, 0, 0], "texture": "#bottom"},
 				"east": {"uv": [0, 0, 0, 0], "texture": "#bottom"},
@@ -219,6 +220,19 @@
 				"west": {"uv": [0, 0, 0, 0], "texture": "#bottom"},
 				"up": {"uv": [0, 0, 8, 8], "texture": "#bottom"},
 				"down": {"uv": [0, 0, 8, 8], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [1, 16, 7.5],
+			"to": [15, 17, 8.5],
+			"color": 2,
+			"faces": {
+				"north": {"uv": [0, 0, 14, 1], "texture": "#wood"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#wood"},
+				"south": {"uv": [0, 0, 14, 1], "texture": "#wood"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#wood"},
+				"up": {"uv": [0, 0, 14, 1], "texture": "#wood"},
+				"down": {"uv": [0, 0, 14, 1], "texture": "#wood"}
 			}
 		}
 	],
@@ -241,6 +255,12 @@
 			"origin": [0, 0, 0],
 			"color": 0,
 			"children": [13, 14, 15, 16, 17, 18]
+		},
+		{
+			"name": "stick",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [19]
 		}
 	]
 }

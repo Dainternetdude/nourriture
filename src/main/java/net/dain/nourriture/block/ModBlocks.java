@@ -14,7 +14,7 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
 	public static final Block CAULDRON_WITH_BUCKET = registerBlock("cauldron_with_bucket",
-			new CauldronBlock(AbstractBlock.Settings.of(Material.METAL, MapColor.STONE_GRAY).requiresTool().strength(2.0f).nonOpaque()), ModItemGroup.NOURRITURE);
+			new CauldronWithBucketBlock(AbstractBlock.Settings.of(Material.METAL, MapColor.STONE_GRAY).requiresTool().strength(2.0f).nonOpaque()), ModItemGroup.NOURRITURE);
 
 
 	private static Block registerBlock(String name, Block block, ItemGroup group) {
